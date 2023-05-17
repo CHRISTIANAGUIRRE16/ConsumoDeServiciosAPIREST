@@ -5,7 +5,7 @@ export interface ProductModel{
     title:string;
     price:number;
     description:string;
-    images:string;
+    images:any;
     category:CategoryModel;
 }
 
